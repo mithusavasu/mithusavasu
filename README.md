@@ -1,4 +1,4 @@
-## Hey, I'm Mithusa Vasu. New to coding and loving the journey! Sharing my projects as I learn and grow. Always open to feedback and collaboration.
+## Hey, I'm Mithusa! New to coding and loving the journey! Sharing my projects as I learn and grow. Always open to feedback and collaboration.
 
 🎓 Computer Science student @ Toronto Metropolitan University
 
