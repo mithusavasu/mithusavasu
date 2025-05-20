@@ -8,9 +8,9 @@
 
 💡 Big on AI, quantum computing, and ethical tech; always up for a good filter-bubble debate.
 
-🛠️ Favorite tools: Spyder on macOS, VS Code, Jupyter, and a trusty cup of iced coffee.
+🛠️ Favorite tools: Spyder on macOS, VS Code, ARCTools, and a trusty cup of iced coffee.
 
-🎬 Off-hours: film buff (just ask me about Oppenheimer), language-learning addict (Duocon alum), and a big reader (talk to me about your favourites).
+🎬 Off-hours: film buff (just ask me about Interstellar), language-learning addict (Duocon alum), and a big reader (talk to me about your favourites).
 
 📫 Reach me: mithusavasudevan@gmail.com | LinkedIn: www.linkedin.com/in/mithusa-vasudevan 
 
