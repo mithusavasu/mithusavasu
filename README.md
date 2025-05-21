@@ -4,7 +4,7 @@
 
 🔭 Currently building an Interactive Study Planner to help first-year students balance deadlines, hobbies, and budgets.
 
-🌱 Learning Python, Java, and algorithm design—with a side quest in cybersecurity.
+🌱 Learning Python, Java, and algorithm design—with a side quest in health informatics.
 
 💡 Big on AI, quantum computing, and ethical tech; always up for a good filter-bubble debate.
 
