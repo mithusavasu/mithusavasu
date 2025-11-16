@@ -4,17 +4,13 @@
 
 🔭 Currently building an Interactive Study Planner to help first-year students balance deadlines, hobbies, and budgets.
 
-🌱 Learning Python, Java, and algorithm design—with a side quest in health informatics.
-
-💡 Big on AI, quantum computing, and ethical tech; always up for a good filter-bubble debate.
+🌱 Languages I'm Learning: Java, Python, Lisp, C, C++, Bash
 
 🛠️ Favorite tools: Spyder on macOS, VS Code, ARCTools, and a trusty cup of iced coffee.
 
 🎬 Off-hours: film buff (just ask me about Interstellar), language-learning addict (Duocon alum), and a big reader (talk to me about your favourites).
 
 📫 Reach me: mithusavasudevan@gmail.com | LinkedIn: www.linkedin.com/in/mithusa-vasudevan 
-
-⚡ Current Idea: I log every whale sighting and seabird species I spot—then feed the data into Python scripts to track migration patterns and ocean-health trends.
 
 
 # 💻 Tech Stack:
