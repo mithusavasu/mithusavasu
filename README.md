@@ -64,27 +64,6 @@ I'm a CS student who enjoys learning how different programming languages and tec
 
 ---
 
-### 🚀 What I'm Building
-
-I'm currently working on projects that help me move from **coursework → real-world software development**.
-
-My goal is to build applications that demonstrate:
-
-```text
-Frontend
-   ↓
-React / JavaScript
-   ↓
-REST API
-   ↓
-Node.js / Express
-   ↓
-PostgreSQL
-   ↓
-AI / External APIs
-```
-
-
 ### 🌱 Current Focus
 
 ```text
