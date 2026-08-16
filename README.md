@@ -1,37 +1,118 @@
-## Hey, I'm Mithusa 👋
+# Hey, I'm Mithusa 👋
 
-🎓 Computer Science Co-op student @ Toronto Metropolitan University, building my skills in software development, full-stack applications, and AI.
+🎓 **Computer Science Co-op @ Toronto Metropolitan University**
 
-💻 Currently improving my Python and software development fundamentals while building projects that combine practical problem-solving with modern technologies.
+I'm a CS student who enjoys learning how different programming languages and technologies approach the same problems. Currently focused on becoming a stronger **software developer**, with an interest in **full-stack development, AI, and backend systems**.
 
-🚀 Currently working toward full-stack development with **TypeScript/JavaScript, React, Node.js/Express, SQL, PostgreSQL, REST APIs, Git/GitHub, and cloud technologies**.
+---
 
-🤖 Exploring **AI/LLM applications, AI agents, tool-calling workflows, and APIs**.
+### 👩‍💻 About Me
 
-🌱 Languages & Technologies: **Python, Java, C, C++, JavaScript/TypeScript, SQL, Bash, Lisp**
+* 🎓 Computer Science Co-op student at **Toronto Metropolitan University**
+* 💻 Building projects to strengthen my software engineering skills
+* 🤖 Exploring **AI, LLM APIs, agents, and tool-calling**
+* 🌐 Learning **HTML, CSS, JavaScript & full-stack development**
+* 🧠 Interested in understanding different programming paradigms
+* 🚀 Currently preparing for **software development co-op opportunities**
 
-🛠️ Tools & Technologies: **Git, GitHub, VS Code, React, Node.js, Express, PostgreSQL, REST APIs, Azure**
+---
 
-📚 Currently focused on becoming **co-op ready for software development and AI-focused roles** by strengthening my programming fundamentals, building full-stack projects, and learning how to design and integrate real-world APIs.
+### 🧰 Languages
 
-🎬 Outside of coding: film lover, reader, and language-learning enthusiast.
+**Comfortable with**
 
-📫 Reach me: **[mithusavasudevan@gmail.com](mailto:mithusavasudevan@gmail.com)**
-🔗 LinkedIn: **[www.linkedin.com/in/mithusa-vasudevan](http://www.linkedin.com/in/mithusa-vasudevan)**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![Lisp](https://img.shields.io/badge/Lisp-3B3B98?style=for-the-badge\&logo=lisp\&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge\&logo=gnubash\&logoColor=white)
+![Haskell](https://img.shields.io/badge/Haskell-5E5086?style=for-the-badge\&logo=haskell\&logoColor=white)
+![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=for-the-badge\&logo=elixir\&logoColor=white)
+![Smalltalk](https://img.shields.io/badge/Smalltalk-59666C?style=for-the-badge\&logo=smalltalk\&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge\&logo=rust\&logoColor=white)
 
-# 💻 Tech Stack:
+**Currently learning**
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge\&logo=openjdk\&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge\&logo=c\&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge\&logo=c%2B%2B\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge\&logo=javascript\&logoColor=black)
-![TypeScript](https://img.shields.io/badge/typescript-3178C6.svg?style=for-the-badge\&logo=typescript\&logoColor=white)
-![SQL](https://img.shields.io/badge/sql-4479A1.svg?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![React](https://img.shields.io/badge/react-20232A.svg?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge\&logo=node.js\&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-000000.svg?style=for-the-badge\&logo=express\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-316192.svg?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![Git](https://img.shields.io/badge/git-F05032.svg?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-181717.svg?style=for-the-badge\&logo=github\&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-0078D4.svg?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge\&logo=postgresql\&logoColor=white)
+
+---
+
+### 🛠️ Technologies I'm Exploring
+
+**Frontend**
+
+`HTML` · `CSS` · `JavaScript` · `React`
+
+**Backend**
+
+`Node.js` · `Express` · `REST APIs`
+
+**Databases**
+
+`SQL` · `PostgreSQL` · `Prisma`
+
+**AI**
+
+`LLM APIs` · `AI Agents` · `Tool Calling`
+
+**Developer Tools**
+
+`Git` · `GitHub` · `VS Code` · `Azure`
+
+---
+
+### 🚀 What I'm Building
+
+I'm currently working on projects that help me move from **coursework → real-world software development**.
+
+My goal is to build applications that demonstrate:
+
+```text
+Frontend
+   ↓
+React / JavaScript
+   ↓
+REST API
+   ↓
+Node.js / Express
+   ↓
+PostgreSQL
+   ↓
+AI / External APIs
+```
+
+---
+
+### 📊 GitHub Stats
+
+![Mithusa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MithusaVasudevan\&show_icons=true\&theme=tokyonight)
+
+---
+
+### 🌱 Current Focus
+
+```text
+Python        ████████████████░░░░
+Java          ██████████████░░░░░░
+JavaScript    ████████░░░░░░░░░░░░
+HTML/CSS      ████████░░░░░░░░░░░░
+React         █████░░░░░░░░░░░░░░░
+SQL           ███████░░░░░░░░░░░░░
+AI / LLMs     █████░░░░░░░░░░░░░░░
+```
+
+---
+
+### 🎬 Beyond Code
+
+🎥 Film lover · 📚 Reader · 🌎 Language learner · ☕ Iced coffee enthusiast
+
+---
+
+### 📫 Let's Connect
+
+**Email:** [mithusavasudevan@gmail.com](mailto:mithusavasudevan@gmail.com)
+**LinkedIn:** [www.linkedin.com/in/mithusa-vasudevan](http://www.linkedin.com/in/mithusa-vasudevan)
