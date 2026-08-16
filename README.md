@@ -84,13 +84,6 @@ PostgreSQL
 AI / External APIs
 ```
 
----
-
-### 📊 GitHub Stats
-
-![Mithusa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MithusaVasudevan\&show_icons=true\&theme=tokyonight)
-
----
 
 ### 🌱 Current Focus
 
