@@ -1,6 +1,6 @@
 /* =========================================================
    MITHUSA PORTFOLIO
-   OLIVE / PERIWINKLE / BEIGE / TERRACOTTA THEME
+   DARK / CRIMSON / BEIGE / AMBER THEME
 ========================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
@@ -12,36 +12,28 @@
 
 :root {
 
-    /* PRIMARY PALETTE */
+--black: #080606;
+--black-soft: #0d0908;
+--black-card: #120d0b;
 
-    --olive-dark: #202808;
-    --olive: #33432B;
+--red-dark: #450b0b;
+--red-deep: #690500;
+--red: #8f1118;
+--red-bright: #b51f27;
+--red-soft: #d14b4b;
 
-    --periwinkle: #6A78DD;
+--brown: #452103;
+--brown-light: #69370d;
 
-    --beige: #DEC59E;
+--amber: #934b00;
+--amber-bright: #bb6b00;
 
-    --terracotta: #C4866D;
+--beige: #e6d6c2;
+--beige-light: #f1e6d7;
+--beige-muted: #a99b8c;
 
-
-    /* DERIVED / SUPPORTING COLORS */
-
-    --olive-black: #171d06;
-    --olive-deep: #242e0d;
-    --olive-light: #43553a;
-
-    --periwinkle-soft: #8792e8;
-    --periwinkle-dark: #4f5dbd;
-
-    --beige-light: #f1e4c9;
-    --beige-muted: #b9a982;
-
-    --terracotta-soft: #d39a83;
-    --terracotta-dark: #9f6653;
-
-    --white: #f8f3e8;
-
-    --muted: #96977d;
+--white: #f7f1e9;
+--muted: #8f857b;
 
     /* BORDERS */
 
