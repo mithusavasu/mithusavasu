@@ -1,6 +1,6 @@
 /* =========================================================
    MITHUSA PORTFOLIO
-   DARK / CRIMSON / BEIGE THEME
+   OLIVE / BLUE / BEIGE / TERRACOTTA THEME
 ========================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
@@ -12,34 +12,44 @@
 
 :root {
 
-    --black: #080606;
-    --black-soft: #0d0908;
-    --black-card: #120d0b;
+    /* PRIMARY DARK PALETTE */
+    --black: #202808;
+    --black-soft: #182006;
+    --black-card: #26300d;
 
-    --red-dark: #450b0b;
-    --red-deep: #690500;
-    --red: #8f1118;
-    --red-bright: #b51f27;
-    --red-soft: #d14b4b;
+    /* GREEN */
+    --green-dark: #26351c;
+    --green: #33432B;
+    --green-light: #40533a;
 
-    --brown: #452103;
-    --brown-light: #69370d;
+    /* BLUE ACCENT */
+    --blue-dark: #4d5ca8;
+    --blue: #6A78DD;
+    --blue-bright: #8190f2;
+    --blue-soft: #9aa6ee;
 
-    --amber: #934b00;
-    --amber-bright: #bb6b00;
+    /* TERRACOTTA */
+    --terracotta-dark: #8e5d4d;
+    --terracotta: #C4866D;
+    --terracotta-light: #d69b83;
 
-    --beige: #e6d6c2;
-    --beige-light: #f1e6d7;
-    --beige-muted: #a99b8c;
+    /* BEIGE */
+    --beige: #DEC59E;
+    --beige-light: #f0dfbf;
+    --beige-muted: #b7a886;
 
-    --white: #f7f1e9;
-    --muted: #8f857b;
+    /* TEXT */
+    --white: #f7eedc;
+    --muted: #9f987e;
 
-    --border: rgba(230, 214, 194, 0.12);
-    --border-red: rgba(181, 31, 39, 0.35);
+    /* BORDERS */
+    --border: rgba(222, 197, 158, 0.13);
+    --border-blue: rgba(106, 120, 221, 0.38);
+    --border-terracotta: rgba(196, 134, 109, 0.35);
 
+    /* EFFECTS */
     --shadow:
-        0 20px 60px rgba(0, 0, 0, 0.45);
+        0 20px 60px rgba(0, 0, 0, 0.42);
 
     --transition:
         0.3s cubic-bezier(0.22, 1, 0.36, 1);
@@ -65,14 +75,19 @@ body {
 
     background:
         radial-gradient(
-            circle at 80% 5%,
-            rgba(105, 5, 0, 0.13),
+            circle at 82% 5%,
+            rgba(106, 120, 221, 0.12),
             transparent 30%
         ),
         radial-gradient(
-            circle at 10% 50%,
-            rgba(147, 75, 0, 0.06),
-            transparent 25%
+            circle at 8% 55%,
+            rgba(196, 134, 109, 0.08),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 50% 100%,
+            rgba(51, 67, 43, 0.18),
+            transparent 35%
         ),
         var(--black);
 
@@ -116,7 +131,7 @@ body::before {
 ========================================================= */
 
 ::selection {
-    background: var(--red);
+    background: var(--blue);
     color: var(--beige-light);
 }
 
@@ -147,7 +162,7 @@ a {
     z-index: 1000;
 
     background:
-        rgba(8, 6, 6, 0.72);
+        rgba(32, 40, 8, 0.78);
 
     backdrop-filter:
         blur(18px);
@@ -156,7 +171,7 @@ a {
         blur(18px);
 
     border-bottom:
-        1px solid rgba(230, 214, 194, 0.08);
+        1px solid rgba(222, 197, 158, 0.09);
 
     transition:
         background var(--transition),
@@ -198,7 +213,7 @@ a {
 }
 
 .logo span {
-    color: var(--red-bright);
+    color: var(--blue);
 }
 
 
@@ -243,7 +258,7 @@ a {
     width: 0;
     height: 1px;
 
-    background: var(--red-bright);
+    background: var(--blue);
 
     transition:
         width var(--transition);
@@ -309,16 +324,16 @@ a {
 
     inset: 0;
 
-    opacity: 0.35;
+    opacity: 0.3;
 
     background-image:
         linear-gradient(
-            rgba(230, 214, 194, 0.035) 1px,
+            rgba(222, 197, 158, 0.035) 1px,
             transparent 1px
         ),
         linear-gradient(
             90deg,
-            rgba(230, 214, 194, 0.035) 1px,
+            rgba(222, 197, 158, 0.035) 1px,
             transparent 1px
         );
 
@@ -334,7 +349,7 @@ a {
 }
 
 
-/* RED GLOW */
+/* BLUE GLOW */
 
 .hero-glow {
 
@@ -356,7 +371,7 @@ a {
     top: 5%;
 
     background:
-        rgba(105, 5, 0, 0.26);
+        rgba(106, 120, 221, 0.18);
 }
 
 .hero-glow-two {
@@ -368,7 +383,7 @@ a {
     bottom: 0;
 
     background:
-        rgba(147, 75, 0, 0.10);
+        rgba(196, 134, 109, 0.10);
 }
 
 
@@ -414,7 +429,7 @@ a {
 
     letter-spacing: 0.18em;
 
-    color: var(--red-soft);
+    color: var(--terracotta);
 }
 
 
@@ -445,10 +460,10 @@ a {
     color: transparent;
 
     -webkit-text-stroke:
-        1px var(--red-bright);
+        1px var(--blue);
 
     text-shadow:
-        0 0 35px rgba(181, 31, 39, 0.12);
+        0 0 35px rgba(106, 120, 221, 0.16);
 }
 
 
@@ -541,28 +556,31 @@ a {
 .btn-primary {
 
     background:
-        var(--red);
+        var(--blue);
 
     color:
-        var(--beige-light);
+        #171d08;
 
     border:
-        1px solid var(--red-bright);
+        1px solid var(--blue-bright);
 
     box-shadow:
-        0 10px 30px rgba(105, 5, 0, 0.25);
+        0 10px 30px rgba(106, 120, 221, 0.22);
 }
 
 .btn-primary:hover {
 
     background:
-        var(--red-bright);
+        var(--blue-bright);
+
+    box-shadow:
+        0 14px 35px rgba(106, 120, 221, 0.30);
 }
 
 .btn-secondary {
 
     background:
-        rgba(230, 214, 194, 0.035);
+        rgba(222, 197, 158, 0.035);
 
     border:
         1px solid var(--border);
@@ -574,13 +592,13 @@ a {
 .btn-secondary:hover {
 
     border-color:
-        var(--red);
+        var(--blue);
 
     color:
         var(--beige-light);
 
     background:
-        rgba(105, 5, 0, 0.12);
+        rgba(106, 120, 221, 0.10);
 }
 
 
@@ -616,10 +634,10 @@ a {
 
     border-radius: 50%;
 
-    background: var(--red-bright);
+    background: var(--terracotta);
 
     box-shadow:
-        0 0 14px var(--red-bright);
+        0 0 14px var(--terracotta);
 
     animation:
         pulse 2s infinite;
@@ -666,7 +684,7 @@ a {
     background:
         radial-gradient(
             circle,
-            rgba(105, 5, 0, 0.35),
+            rgba(106, 120, 221, 0.25),
             transparent 65%
         );
 
@@ -682,7 +700,7 @@ a {
     border-radius: 50%;
 
     border:
-        1px solid rgba(181, 31, 39, 0.45);
+        1px solid rgba(106, 120, 221, 0.48);
 
     transform:
         rotate(-20deg);
@@ -697,7 +715,7 @@ a {
     width: 12px;
     height: 12px;
 
-    background: var(--red-bright);
+    background: var(--terracotta);
 
     border-radius: 50%;
 
@@ -705,7 +723,7 @@ a {
     right: 12%;
 
     box-shadow:
-        0 0 20px var(--red-bright);
+        0 0 20px var(--terracotta);
 }
 
 .hero-image img {
@@ -722,7 +740,7 @@ a {
     border-radius: 50%;
 
     border:
-        1px solid rgba(230, 214, 194, 0.16);
+        1px solid rgba(222, 197, 158, 0.16);
 
     filter:
         saturate(0.82)
@@ -758,7 +776,7 @@ a {
         12px 16px;
 
     background:
-        rgba(18, 13, 11, 0.88);
+        rgba(51, 67, 43, 0.88);
 
     border:
         1px solid var(--border);
@@ -775,7 +793,7 @@ a {
 .floating-card > span {
 
     color:
-        var(--red-bright);
+        var(--blue);
 
     font-size:
         1.2rem;
@@ -852,7 +870,7 @@ a {
     height: 1px;
 
     background:
-        var(--red-dark);
+        var(--blue-dark);
 }
 
 
@@ -888,7 +906,7 @@ a {
         monospace;
 
     color:
-        var(--red-bright);
+        var(--blue);
 
     font-size:
         0.72rem;
@@ -1006,13 +1024,13 @@ a {
     place-items: center;
 
     background:
-        rgba(105, 5, 0, 0.16);
+        rgba(106, 120, 221, 0.12);
 
     border:
-        1px solid var(--border-red);
+        1px solid var(--border-blue);
 
     filter:
-        grayscale(0.4);
+        grayscale(0.15);
 }
 
 .info-row small {
@@ -1027,7 +1045,7 @@ a {
         0.6rem;
 
     color:
-        var(--red-soft);
+        var(--blue-soft);
 
     letter-spacing:
         0.1em;
@@ -1062,7 +1080,7 @@ a {
     position: relative;
 
     border-left:
-        1px solid rgba(181, 31, 39, 0.28);
+        1px solid rgba(106, 120, 221, 0.28);
 
     margin-left: 8px;
 }
@@ -1098,13 +1116,13 @@ a {
     border-radius: 50%;
 
     background:
-        var(--red);
+        var(--blue);
 
     border:
         2px solid var(--black);
 
     box-shadow:
-        0 0 18px rgba(181, 31, 39, 0.55);
+        0 0 18px rgba(106, 120, 221, 0.55);
 }
 
 .timeline-date {
@@ -1149,7 +1167,7 @@ a {
         monospace;
 
     color:
-        var(--red-soft);
+        var(--terracotta);
 
     font-size:
         0.62rem;
@@ -1230,7 +1248,7 @@ a {
 .experience-content li::marker {
 
     color:
-        var(--red-bright);
+        var(--blue);
 }
 
 
@@ -1247,8 +1265,8 @@ a {
     background:
         linear-gradient(
             135deg,
-            rgba(105, 5, 0, 0.12),
-            rgba(18, 13, 11, 0.8)
+            rgba(51, 67, 43, 0.72),
+            rgba(32, 40, 8, 0.86)
         );
 
     border:
@@ -1315,7 +1333,7 @@ a {
         monospace;
 
     color:
-        var(--red-bright);
+        var(--blue);
 
     font-size:
         0.7rem;
@@ -1369,7 +1387,7 @@ a {
         0.65rem;
 
     color:
-        var(--red-soft);
+        var(--terracotta);
 
     letter-spacing:
         0.1em;
@@ -1396,7 +1414,7 @@ a {
         7px 11px;
 
     background:
-        rgba(230, 214, 194, 0.035);
+        rgba(222, 197, 158, 0.035);
 
     border:
         1px solid var(--border);
@@ -1444,7 +1462,7 @@ a {
 .skill-category:hover {
 
     background:
-        #180e0b;
+        #33432B;
 }
 
 .skill-heading {
@@ -1466,7 +1484,7 @@ a {
         monospace;
 
     color:
-        var(--red-bright);
+        var(--blue);
 
     font-size:
         0.65rem;
@@ -1506,7 +1524,7 @@ a {
         1px solid var(--border);
 
     background:
-        rgba(230, 214, 194, 0.025);
+        rgba(222, 197, 158, 0.025);
 
     color:
         var(--beige-muted);
@@ -1528,10 +1546,10 @@ a {
         var(--beige-light);
 
     border-color:
-        var(--red);
+        var(--blue);
 
     background:
-        rgba(105, 5, 0, 0.14);
+        rgba(106, 120, 221, 0.12);
 }
 
 .learning-card {
@@ -1539,7 +1557,7 @@ a {
     background:
         linear-gradient(
             135deg,
-            rgba(105, 5, 0, 0.16),
+            rgba(106, 120, 221, 0.12),
             var(--black-card)
         );
 }
@@ -1574,8 +1592,8 @@ a {
     background:
         linear-gradient(
             145deg,
-            #130d0b,
-            #0b0807
+            #2b350f,
+            #182006
         );
 
     border:
@@ -1608,9 +1626,9 @@ a {
     background:
         linear-gradient(
             90deg,
-            var(--red-deep),
-            var(--red-bright),
-            var(--amber)
+            var(--terracotta),
+            var(--blue),
+            var(--beige)
         );
 
     transform:
@@ -1629,7 +1647,7 @@ a {
         translateY(-8px);
 
     border-color:
-        rgba(181, 31, 39, 0.35);
+        rgba(106, 120, 221, 0.40);
 
     box-shadow:
         0 25px 70px rgba(0, 0, 0, 0.5);
@@ -1671,10 +1689,10 @@ a {
         center;
 
     background:
-        rgba(105, 5, 0, 0.15);
+        rgba(106, 120, 221, 0.12);
 
     border:
-        1px solid var(--border-red);
+        1px solid var(--border-blue);
 
     font-size:
         1.25rem;
@@ -1708,7 +1726,7 @@ a {
 .project-links a:hover {
 
     color:
-        var(--red-soft);
+        var(--blue-soft);
 }
 
 .project-content {
@@ -1727,7 +1745,7 @@ a {
         monospace;
 
     color:
-        var(--red-soft);
+        var(--terracotta);
 
     font-size:
         0.6rem;
@@ -1785,7 +1803,7 @@ a {
         5px 8px;
 
     background:
-        rgba(230, 214, 194, 0.035);
+        rgba(222, 197, 158, 0.035);
 
     border:
         1px solid var(--border);
@@ -1820,9 +1838,9 @@ a {
     background:
         linear-gradient(
             135deg,
-            #080606,
-            #200a08 45%,
-            #080606
+            #202808,
+            #33432B 45%,
+            #202808
         );
 
     border-top:
@@ -1913,7 +1931,7 @@ a {
         monospace;
 
     color:
-        var(--red-bright);
+        var(--blue);
 
     font-size:
         0.62rem;
@@ -2025,7 +2043,7 @@ a {
         1px solid var(--border);
 
     background:
-        rgba(230, 214, 194, 0.03);
+        rgba(222, 197, 158, 0.03);
 
     font-family:
         "DM Mono",
@@ -2047,10 +2065,13 @@ a {
 .contact-button:hover {
 
     background:
-        var(--red);
+        var(--blue);
 
     border-color:
-        var(--red-bright);
+        var(--blue-bright);
+
+    color:
+        #171d08;
 
     transform:
         translateY(-3px);
@@ -2251,7 +2272,7 @@ footer {
             20px;
 
         background:
-            rgba(18, 13, 11, 0.97);
+            rgba(51, 67, 43, 0.97);
 
         border:
             1px solid var(--border);
