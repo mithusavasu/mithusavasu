@@ -1,6 +1,6 @@
 /* =========================================================
    MITHUSA PORTFOLIO
-   OLIVE / BLUE / BEIGE / TERRACOTTA THEME
+   OLIVE / PERIWINKLE / BEIGE / TERRACOTTA THEME
 ========================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
@@ -12,44 +12,56 @@
 
 :root {
 
-    /* PRIMARY DARK PALETTE */
-    --black: #202808;
-    --black-soft: #182006;
-    --black-card: #26300d;
+    /* PRIMARY PALETTE */
 
-    /* GREEN */
-    --green-dark: #26351c;
-    --green: #33432B;
-    --green-light: #40533a;
+    --olive-dark: #202808;
+    --olive: #33432B;
 
-    /* BLUE ACCENT */
-    --blue-dark: #4d5ca8;
-    --blue: #6A78DD;
-    --blue-bright: #8190f2;
-    --blue-soft: #9aa6ee;
+    --periwinkle: #6A78DD;
 
-    /* TERRACOTTA */
-    --terracotta-dark: #8e5d4d;
-    --terracotta: #C4866D;
-    --terracotta-light: #d69b83;
-
-    /* BEIGE */
     --beige: #DEC59E;
-    --beige-light: #f0dfbf;
-    --beige-muted: #b7a886;
 
-    /* TEXT */
-    --white: #f7eedc;
-    --muted: #9f987e;
+    --terracotta: #C4866D;
+
+
+    /* DERIVED / SUPPORTING COLORS */
+
+    --olive-black: #171d06;
+    --olive-deep: #242e0d;
+    --olive-light: #43553a;
+
+    --periwinkle-soft: #8792e8;
+    --periwinkle-dark: #4f5dbd;
+
+    --beige-light: #f1e4c9;
+    --beige-muted: #b9a982;
+
+    --terracotta-soft: #d39a83;
+    --terracotta-dark: #9f6653;
+
+    --white: #f8f3e8;
+
+    --muted: #96977d;
 
     /* BORDERS */
-    --border: rgba(222, 197, 158, 0.13);
-    --border-blue: rgba(106, 120, 221, 0.38);
-    --border-terracotta: rgba(196, 134, 109, 0.35);
 
-    /* EFFECTS */
+    --border:
+        rgba(222, 197, 158, 0.13);
+
+    --border-periwinkle:
+        rgba(106, 120, 221, 0.38);
+
+    --border-terracotta:
+        rgba(196, 134, 109, 0.35);
+
+
+    /* SHADOW */
+
     --shadow:
-        0 20px 60px rgba(0, 0, 0, 0.42);
+        0 20px 60px rgba(0, 0, 0, 0.45);
+
+
+    /* TRANSITION */
 
     --transition:
         0.3s cubic-bezier(0.22, 1, 0.36, 1);
@@ -75,21 +87,21 @@ body {
 
     background:
         radial-gradient(
-            circle at 82% 5%,
+            circle at 80% 5%,
             rgba(106, 120, 221, 0.12),
             transparent 30%
         ),
         radial-gradient(
-            circle at 8% 55%,
-            rgba(196, 134, 109, 0.08),
-            transparent 28%
+            circle at 10% 45%,
+            rgba(196, 134, 109, 0.09),
+            transparent 25%
         ),
         radial-gradient(
             circle at 50% 100%,
-            rgba(51, 67, 43, 0.18),
+            rgba(51, 67, 43, 0.25),
             transparent 35%
         ),
-        var(--black);
+        var(--olive-dark);
 
     color: var(--beige);
 
@@ -131,8 +143,10 @@ body::before {
 ========================================================= */
 
 ::selection {
-    background: var(--blue);
-    color: var(--beige-light);
+
+    background: var(--periwinkle);
+
+    color: var(--olive-dark);
 }
 
 
@@ -141,7 +155,9 @@ body::before {
 ========================================================= */
 
 a {
+
     color: inherit;
+
     text-decoration: none;
 }
 
@@ -213,7 +229,9 @@ a {
 }
 
 .logo span {
-    color: var(--blue);
+
+    color:
+        var(--periwinkle);
 }
 
 
@@ -258,7 +276,8 @@ a {
     width: 0;
     height: 1px;
 
-    background: var(--blue);
+    background:
+        var(--periwinkle);
 
     transition:
         width var(--transition);
@@ -267,7 +286,8 @@ a {
 .nav-links a:hover,
 .nav-links a.active {
 
-    color: var(--beige-light);
+    color:
+        var(--beige-light);
 }
 
 .nav-links a:hover::after,
@@ -324,7 +344,7 @@ a {
 
     inset: 0;
 
-    opacity: 0.3;
+    opacity: 0.35;
 
     background-image:
         linear-gradient(
@@ -349,7 +369,7 @@ a {
 }
 
 
-/* BLUE GLOW */
+/* PERIWINKLE GLOW */
 
 .hero-glow {
 
@@ -371,7 +391,7 @@ a {
     top: 5%;
 
     background:
-        rgba(106, 120, 221, 0.18);
+        rgba(106, 120, 221, 0.20);
 }
 
 .hero-glow-two {
@@ -383,7 +403,7 @@ a {
     bottom: 0;
 
     background:
-        rgba(196, 134, 109, 0.10);
+        rgba(196, 134, 109, 0.12);
 }
 
 
@@ -429,7 +449,8 @@ a {
 
     letter-spacing: 0.18em;
 
-    color: var(--terracotta);
+    color:
+        var(--terracotta);
 }
 
 
@@ -448,7 +469,8 @@ a {
 
     letter-spacing: -0.075em;
 
-    color: var(--beige-light);
+    color:
+        var(--beige-light);
 
     margin-bottom: 30px;
 }
@@ -460,10 +482,10 @@ a {
     color: transparent;
 
     -webkit-text-stroke:
-        1px var(--blue);
+        1px var(--periwinkle);
 
     text-shadow:
-        0 0 35px rgba(106, 120, 221, 0.16);
+        0 0 35px rgba(106, 120, 221, 0.18);
 }
 
 
@@ -486,7 +508,8 @@ a {
 
     letter-spacing: -0.04em;
 
-    color: var(--beige);
+    color:
+        var(--beige);
 }
 
 
@@ -498,7 +521,8 @@ a {
 
     margin-top: 28px;
 
-    color: var(--muted);
+    color:
+        var(--muted);
 
     font-size: 1rem;
 }
@@ -556,13 +580,13 @@ a {
 .btn-primary {
 
     background:
-        var(--blue);
+        var(--periwinkle);
 
     color:
-        #171d08;
+        var(--olive-dark);
 
     border:
-        1px solid var(--blue-bright);
+        1px solid var(--periwinkle-soft);
 
     box-shadow:
         0 10px 30px rgba(106, 120, 221, 0.22);
@@ -571,10 +595,7 @@ a {
 .btn-primary:hover {
 
     background:
-        var(--blue-bright);
-
-    box-shadow:
-        0 14px 35px rgba(106, 120, 221, 0.30);
+        var(--periwinkle-soft);
 }
 
 .btn-secondary {
@@ -592,13 +613,13 @@ a {
 .btn-secondary:hover {
 
     border-color:
-        var(--blue);
+        var(--terracotta);
 
     color:
         var(--beige-light);
 
     background:
-        rgba(106, 120, 221, 0.10);
+        rgba(196, 134, 109, 0.10);
 }
 
 
@@ -620,7 +641,8 @@ a {
 
     font-size: 0.68rem;
 
-    color: var(--muted);
+    color:
+        var(--muted);
 
     text-transform: uppercase;
 
@@ -634,7 +656,8 @@ a {
 
     border-radius: 50%;
 
-    background: var(--terracotta);
+    background:
+        var(--terracotta);
 
     box-shadow:
         0 0 14px var(--terracotta);
@@ -684,7 +707,7 @@ a {
     background:
         radial-gradient(
             circle,
-            rgba(106, 120, 221, 0.25),
+            rgba(106, 120, 221, 0.28),
             transparent 65%
         );
 
@@ -700,7 +723,7 @@ a {
     border-radius: 50%;
 
     border:
-        1px solid rgba(106, 120, 221, 0.48);
+        1px solid rgba(106, 120, 221, 0.50);
 
     transform:
         rotate(-20deg);
@@ -715,7 +738,8 @@ a {
     width: 12px;
     height: 12px;
 
-    background: var(--terracotta);
+    background:
+        var(--terracotta);
 
     border-radius: 50%;
 
@@ -740,7 +764,7 @@ a {
     border-radius: 50%;
 
     border:
-        1px solid rgba(222, 197, 158, 0.16);
+        1px solid rgba(222, 197, 158, 0.18);
 
     filter:
         saturate(0.82)
@@ -793,7 +817,7 @@ a {
 .floating-card > span {
 
     color:
-        var(--blue);
+        var(--periwinkle);
 
     font-size:
         1.2rem;
@@ -860,7 +884,8 @@ a {
 
     letter-spacing: 0.12em;
 
-    color: var(--muted);
+    color:
+        var(--muted);
 }
 
 .scroll-indicator span {
@@ -870,7 +895,7 @@ a {
     height: 1px;
 
     background:
-        var(--blue-dark);
+        var(--terracotta);
 }
 
 
@@ -906,7 +931,7 @@ a {
         monospace;
 
     color:
-        var(--blue);
+        var(--periwinkle);
 
     font-size:
         0.72rem;
@@ -1027,10 +1052,10 @@ a {
         rgba(106, 120, 221, 0.12);
 
     border:
-        1px solid var(--border-blue);
+        1px solid var(--border-periwinkle);
 
     filter:
-        grayscale(0.15);
+        grayscale(0.1);
 }
 
 .info-row small {
@@ -1045,7 +1070,7 @@ a {
         0.6rem;
 
     color:
-        var(--blue-soft);
+        var(--terracotta);
 
     letter-spacing:
         0.1em;
@@ -1080,7 +1105,7 @@ a {
     position: relative;
 
     border-left:
-        1px solid rgba(106, 120, 221, 0.28);
+        1px solid rgba(106, 120, 221, 0.30);
 
     margin-left: 8px;
 }
@@ -1116,10 +1141,10 @@ a {
     border-radius: 50%;
 
     background:
-        var(--blue);
+        var(--periwinkle);
 
     border:
-        2px solid var(--black);
+        2px solid var(--olive-dark);
 
     box-shadow:
         0 0 18px rgba(106, 120, 221, 0.55);
@@ -1248,7 +1273,7 @@ a {
 .experience-content li::marker {
 
     color:
-        var(--blue);
+        var(--periwinkle);
 }
 
 
@@ -1265,8 +1290,8 @@ a {
     background:
         linear-gradient(
             135deg,
-            rgba(51, 67, 43, 0.72),
-            rgba(32, 40, 8, 0.86)
+            rgba(51, 67, 43, 0.65),
+            rgba(32, 40, 8, 0.85)
         );
 
     border:
@@ -1295,7 +1320,8 @@ a {
 
 .leadership-description {
 
-    max-width: 750px;
+    max-width:
+        750px;
 
     margin:
         25px 0 40px;
@@ -1323,7 +1349,7 @@ a {
         25px;
 
     background:
-        var(--black-card);
+        var(--olive-black);
 }
 
 .leadership-grid span {
@@ -1333,7 +1359,7 @@ a {
         monospace;
 
     color:
-        var(--blue);
+        var(--periwinkle);
 
     font-size:
         0.7rem;
@@ -1424,6 +1450,21 @@ a {
 
     font-size:
         0.76rem;
+
+    transition:
+        all var(--transition);
+}
+
+.course-list span:hover {
+
+    color:
+        var(--beige-light);
+
+    border-color:
+        var(--periwinkle);
+
+    background:
+        rgba(106, 120, 221, 0.08);
 }
 
 
@@ -1453,7 +1494,7 @@ a {
         35px;
 
     background:
-        var(--black-card);
+        var(--olive-black);
 
     transition:
         background var(--transition);
@@ -1462,7 +1503,7 @@ a {
 .skill-category:hover {
 
     background:
-        #33432B;
+        #29350f;
 }
 
 .skill-heading {
@@ -1484,7 +1525,7 @@ a {
         monospace;
 
     color:
-        var(--blue);
+        var(--periwinkle);
 
     font-size:
         0.65rem;
@@ -1546,10 +1587,10 @@ a {
         var(--beige-light);
 
     border-color:
-        var(--blue);
+        var(--periwinkle);
 
     background:
-        rgba(106, 120, 221, 0.12);
+        rgba(106, 120, 221, 0.14);
 }
 
 .learning-card {
@@ -1557,8 +1598,8 @@ a {
     background:
         linear-gradient(
             135deg,
-            rgba(106, 120, 221, 0.12),
-            var(--black-card)
+            rgba(196, 134, 109, 0.14),
+            var(--olive-black)
         );
 }
 
@@ -1592,8 +1633,8 @@ a {
     background:
         linear-gradient(
             145deg,
-            #2b350f,
-            #182006
+            #303d27,
+            #1b2309
         );
 
     border:
@@ -1627,7 +1668,7 @@ a {
         linear-gradient(
             90deg,
             var(--terracotta),
-            var(--blue),
+            var(--periwinkle),
             var(--beige)
         );
 
@@ -1689,10 +1730,10 @@ a {
         center;
 
     background:
-        rgba(106, 120, 221, 0.12);
+        rgba(106, 120, 221, 0.13);
 
     border:
-        1px solid var(--border-blue);
+        1px solid var(--border-periwinkle);
 
     font-size:
         1.25rem;
@@ -1726,7 +1767,7 @@ a {
 .project-links a:hover {
 
     color:
-        var(--blue-soft);
+        var(--terracotta-soft);
 }
 
 .project-content {
@@ -1931,7 +1972,7 @@ a {
         monospace;
 
     color:
-        var(--blue);
+        var(--periwinkle-soft);
 
     font-size:
         0.62rem;
@@ -2065,13 +2106,13 @@ a {
 .contact-button:hover {
 
     background:
-        var(--blue);
-
-    border-color:
-        var(--blue-bright);
+        var(--periwinkle);
 
     color:
-        #171d08;
+        var(--olive-dark);
+
+    border-color:
+        var(--periwinkle-soft);
 
     transform:
         translateY(-3px);
@@ -2272,7 +2313,7 @@ footer {
             20px;
 
         background:
-            rgba(51, 67, 43, 0.97);
+            rgba(32, 40, 8, 0.97);
 
         border:
             1px solid var(--border);
